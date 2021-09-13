@@ -2,9 +2,9 @@ require_relative "./Player"
 require_relative "./Question"
 
 class MathGame
-  def initialize (one, two)
-    @player1 = Player.new(one)
-    @player2 = Player.new(two)
+  def initialize (p1, p2)
+    @player1 = Player.new(p1)
+    @player2 = Player.new(p2)
     @players = [@player1, @player2]
   end
 

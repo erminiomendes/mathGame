@@ -1,10 +1,10 @@
 require "./Game"
 
 puts "PLAYER ONE, ENTER YOUR NAME..."
-name_one = gets.chomp.capitalize
+nameP1 = gets.chomp.capitalize
 
-puts "PLAYER TWO! ENTER YOUR NAME..."
-name_two = gets.chomp.capitalize
+puts "PLAYER TWO, ENTER YOUR NAME..."
+nameP2 = gets.chomp.capitalize
 
-game1 = MathGame.new(name_one, name_two)
+game1 = MathGame.new(nameP1, nameP2)
 game1.play
